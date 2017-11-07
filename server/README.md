@@ -29,7 +29,7 @@ venv/bin/pip install Flask-OAuthLib
 4. Run
 
 ```sh
-venv/bin/python3 app.py
+APP_ID='myappid' APP_SECRET='mysecret' venv/bin/python3 app.py
 ```
 
 5. Access API with browser
